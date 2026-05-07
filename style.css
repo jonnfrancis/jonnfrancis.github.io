@@ -478,9 +478,14 @@ img {
 
 .hero h1 {
   font-size: var(--fs-700);
-  font-family: var(--ff-base);
+  font-family: var(--ff-gd);
   font-weight: var(--fw-bold);
+  margin: 0;
+  padding: 0;
+  line-height: 125%;
+  max-width: 100%;
   text-transform: capitalize;
+  padding-top:  1rem;
 }
 
 .mask {
@@ -493,7 +498,7 @@ img {
   color: var(--clr-nuetral-100);
   font-family: var(--ff-base);
   letter-spacing: .75px; 
-  text-align: right;
+  text-align: left;
 }
 
 .cta-button {
@@ -510,8 +515,6 @@ img {
 .cta-button:hover {
   background-color: var(--clr-accent-400);
 }
-
-
 
 .blob {
   position: absolute;
