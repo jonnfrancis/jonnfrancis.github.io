@@ -1,200 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Francis - Expert Web Developer and UI Designer | Portfolio</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Francis' Developer Portfolio</title>
   <meta name="description"
-    content="John Francis: Expert Web Developer and professional UI Designer. Specializing in Responsive web design, UI/UX and SEO-Friendly web apps, I deliver impactful digital experiences. Explore my portfolio for projects showcasing cutting-edge web development. Contact me for your next web development needs.">
-  <meta name="keywords"
-    content="expert web developer, UI designer, portfolio, web development projects, user interface design, digital experiences, web development services, responsive web design, SEO-friendly development, front-end frameworks, React vs Vite comparison, professional web developer, UI/UX optimization">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="John Francis - Web Developer">
-  <meta property="og:title" content="John Francis - Expert Web Developer and UI Designer | Portfolio">
-  <meta name="robots" content="index, follow">
+    content="John Francis — Full-stack developer. Interactive portfolio with macOS-inspired UI, draggable windows, Finder-style file browser, and project showcases." />
+    
+  <link rel="canonical" href="https://portfolio-v2-psi-dusky.vercel.app/" />
+  <link rel="alternate" href="https://portfolio-v2-psi-dusky.vercel.app/" hreflang="en" />
+  <link rel="alternate" href="https://portfolio-v2-psi-dusky.vercel.app/" hreflang="en-US" />
+  <link rel="alternate" href="https://portfolio-v2-psi-dusky.vercel.app/" hreflang="x-default" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="John Francis' Developer Portfolio" />
   <meta property="og:description"
-    content="I am John Francis, a skilled web developer and UI designer. Explore my portfolio to see my projects and get in touch for your web development needs.">
-  <meta property="og:image" content="https://i.imgur.com/sByHZ0C.png">
-  <meta property="og:url" content="https://www.johnfrancis.dev/">
+    content="Interactive portfolio: macOS-inspired UI, draggable windows, Finder-like file browser, and projects by John Francis." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://portfolio-v2-psi-dusky.vercel.app/" />
+  <meta property="og:image" content="https://portfolio-v2-psi-dusky.vercel.app/images/og-image.png" />
+  <meta property="og:image:alt" content="John Francis — Full-stack Developer" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5RQ3CF5R');</script>
-    <!-- End Google Tag Manager -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@jonnfrancis7" />
+  <meta name="twitter:creator" content="@jonnfrancis7" />
+  <meta name="twitter:title" content="John Francis' Developer Portfolio" />
+  <meta name="twitter:description"
+    content="Interactive portfolio with macOS-inspired UI, draggable windows, and project showcases." />
+  <meta name="twitter:image" content="https://portfolio-v2-psi-dusky.vercel.app/images/og-image.png" />
 
+  <!-- JSON-LD structured data -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "John Francis",
-      "url": "https://www.johnfrancis.dev/",
-      "sameAs": [
-        "https://linkedin.com/in/john-francis-732259211",
-        "https://github.com/jonnfrancis",
-        "https://instagram.com/johnfrancis.dev"
-      ],
-      "jobTitle": "Frontend Web Developer",
-      "image": "https://i.imgur.com/sByHZ0C.png",
-      "alumniOf": {
-        "@type": "CollegeOrUniversity",
-        "name": "Kenyatta University",
-        "url": "https://ku.ac.ke/"
-      },
-      "knowsAbout": ["JavaScript", "Python", "Web Development", "UI/UX"],
-      "gender": "male",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Freelance",
-        "url": "https://www.johnfrancis.dev/"
-      },
-      "description": "Passionate web developer with 3 years of experience in creating modern and responsive web applications. Certified by Harvard University in Web Programming and Computer Science.",
-      "hasCredential": [
+      "@graph": [
         {
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Harvard | CS for Web Programming",
-          "url": "https://credentials.edx.org/credentials/77a6a4ad9c1e46e8ae2d9225788b91eb/"
+          "@type": "Person",
+          "@id": "#person",
+          "name": "John Francis",
+          "url": "https://jonnfrancis.dev/",
+          "jobTitle": "Full-Stack Developer",
+          "description": "Full-stack developer portfolio showcasing interactive UI demos and projects.",
+          "sameAs": [
+            "https://github.com/jonnfrancis",
+            "https://linkedin.com/in/john-francis-732259211",
+            "https://x.com/jonnfrancis7",
+            "https://instagram.com/johnfrancis.dev"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "#website",
+          "name": "John Francis | Full-Stack Portfolio",
+          "url": "https://jonnfrancis.dev/",
+          "publisher": { "@id": "#person" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "#homepage",
+          "url": "https://jonnfrancis.dev/",
+          "name": "John Francis' Developer Portfolio",
+          "isPartOf": { "@id": "#website" },
+          "about": { "@id": "#person" }
         }
       ]
     }
     </script>
-    
-  
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQ3CF5R"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-  <nav class="navbar">
-    <div class="navbar-content">
-      <div class="logo">
-        <span data-text="JF" class="initials">JF</span>
-      </div>
-      <div class="navbar-menu">
-        <ul>
-          <li><a id="resume">Resumè</a></li>
-          <li><a id="profile">Contacts</a></li>
-          <li><a id="projects">Profile</a></li>
-        </ul>
-      </div>
-
-      <a href="./Resume.pdf" class="cta-button" id="cv-btn" download>Download CV</a>
-    </div>
-  </nav>
-
-  <header class="hero">
-    <div class="mobile-container">
-      <div class="mobile-header">
-        <div class="mobile-header-title">
-          <h1>JF</h1>
-        </div>
-      </div>
-      <div class="name-container">
-        <div class="group1">
-          <h1 class="name1">JOHN</h1>
-          <img class="star-icon star1" src="./icons/Star1.png" alt="John Francis - Web Developer and UI Designer | Star Icon">
-          <h1 class="name2">JOHN</h1>
-        </div>
-        <div class="group2">
-          <h1 class="name3">FRANCIS</h1>
-          <img class="star-icon star2" src="./icons/Star2.png" alt="John Francis - Web Developer and UI Designer | Star Icon">
-          <h1 class="name4">FRANCIS</h1>
-        </div>
-      </div>
-
-      <div class="greetings">
-        <h2>HI !👋</h2>
-      </div>
-
-      <p class="mobile-hero-text">I create fast, responsive and dynamic websites using modern frameworks.</p>
-
-      <div class='mobile-hero-cta' id="profile-btn">Get Started<img src="arrow.png" alt="John Francis - Web Developer and UI Designer | arrow" class='arrow--img'></img></div>
-      <div class="mouse scroll">
-        <svg width="40" height="58" viewBox="0 0 40 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="40" height="58" rx="20" fill="#A6B2EC"/>
-          <line x1="19" y1="52" id="mouse-down" x2="19" y2="38" stroke="#010313" stroke-width="2" stroke-linecap="round"/>
-        </svg>          
-      </div>
-    </div>
-    <div class="mobile-bottom-navbar">
-      <ul class="navbar-icons">
-        <li><i class="bx bx-briefcase-alt"></i></li>
-        <li><i class="bx bx-home-alt"></i></li>
-        <li><i class="bx bx-box"></i></li>
-      </ul>
-    </div>
-    <div class="hero-content">
-      <p class="eyebrow hero-txt">Hi, I'm <span class="name-animation">J</span><span class="name-animation">o</span><span
-          class="name-animation">h</span><span class="name-animation">n</span> <span
-          class="name-animation">F</span><span class="name-animation">r</span><span class="name-animation">a</span><span
-          class="name-animation">n</span><span class="name-animation">c</span><span class="name-animation">i</span><span
-          class="name-animation">s</span></p>
-      <div class="mask">
-        <h1 class="hide">Websites for growing brands!</p>
-      </div>
-      <div class="mask">
-        <p class="catchy-text hide">I am an experienced web developer and UI designer, let’s delve into your brand’s digital journey, creating a vibrant, responsive website that intertwines beauty and functionality to drive conversions.</p>
-      </div>
-      <a title="Check Out my Resume" id="explore-btn" class="cta-button">Learn More</a>
-      <div class="blob blob1"></div>
-      <div class="blob blob2"></div>
-      <div class="blob blob3"></div>
-    </div>
-    <div class="hero-illustration">
-      <!-- <img src="./illustration.png" width="1200" alt="John Francis - Web Developer and UI Designer | Hero Illustration"> -->
-      <div class="grid-container">
-        <div class="grid-item tile-1">
-          <h3 class="hero-quote">The best way to predict the future is to create it.</h3>
-          <p class="hero-quoter">~Lincoln</p>
-        </div>
-        <div class="grid-item tile-2">
-          <img src="./Projects/heroImg.png" class="hero-img" alt="an image of a white clay mockup with my latest project">
-          <div class="overlay"></div>
-          <div class="ill-link">
-            <a title="Visit VocabBoost - learn vocabularies fast" target = '_blank' href="https://www.johnfrancis.dev/VocabBoost/"><img src="./icons/Arrow.svg" alt="An icon of an arrow" class="ill-arrow"></a>
-          </div> 
-        </div>
-        <div class="grid-item tile-3">
-          <img title="Years of Experience" src="./Projects/3+.png" alt="" class="experience">
-        </div>
-        <div class="grid-item tile-4">
-          <a title="Visit my Insta dev page" target = '_blank' href="https://instagram.com/johnfrancis.dev"><img src="./icons/Ig.jpg" alt="" class="Ig-icon"></a>
-          <div class="overlay"></div>
-        </div>
-        <div class="grid-item tile-5">
-          <a title="Visit my github profile" target = '_blank' href="https://github.com/jonnfrancis"><img src="./icons/hero-icon.png" alt="" class="my-logo"></a>
-          <div class="ellipse circle-1"></div>
-          <div class="ellipse circle-2"></div>
-          <div class="ellipse circle-3"></div>
-          <div class="ellipse circle-4"></div>
-        </div>
-        <div class="grid-item tile-6">
-          <img src="./Projects/profile-hero.png" alt="John Francis' Profile Picture" class="profile-hero">
-          <p class="hero-ill-txt">My name is <span class="ill-txt-bold">JOHN</span>, a Developer and UI designer, I’m interested in React, AI, Digital Marketing, UI/UX, Music, Design and Customization.</p>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-  <script src="https://unpkg.com/split-type"></script>
-  <script type="module" src="./main.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
