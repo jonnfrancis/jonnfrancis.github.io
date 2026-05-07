@@ -34,6 +34,7 @@ A macOS-inspired interactive portfolio built with modern web technologies, featu
 - [Live app](https://storage-management-sigma.vercel.app/) • [GitHub](https://github.com/jonnfrancis/storage-management)  
 
 ---
+![Mobile snapshot](https://i.imgur.com/30jifvg.png)
 
 ## Architecture Highlights
 
