@@ -16,7 +16,7 @@ const Finder = () => {
             <h3>{name}</h3>
             <ul>
                 {items.map((item) => (
-                    <li key={item.id} className={clsx(item.id === activeLocation.id ? 'active' : 'not-active')} onClick={() => setActiveLocation(item)}>
+                    <li key={item.id} className={clsx(item === activeLocation ? 'active' : 'not-active')} onClick={() => setActiveLocation(item)}>
                         <img src={item.icon} className='w-4' alt={item.name} />
                         <p className="text-sm truncate font-medium">{item.name}</p>
                     </li>

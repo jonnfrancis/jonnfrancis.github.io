@@ -34,7 +34,7 @@ const MobileFinder = () => {
           <li className="text-sm text-neutral-500 px-1 py-2">No items</li>
         ) : (
           items.map((item) => {
-            const isActive = item.id === activeLocation?.id;
+            const isActive = item === activeLocation;
             return (
               <li key={item.id} className="shrink-0">
                 <button

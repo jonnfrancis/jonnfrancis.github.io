@@ -393,6 +393,59 @@ const WORK_LOCATION = {
         },
       ],
     },
+    {
+      id: 8,
+      name: "Green Low-Tech(GLT) Website",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-52 left-90",
+      windowPosition: "top-52 right-10",
+      children: [
+        {
+          id: 1,
+          name: "Green Low-Technologies Ltd Platform.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Green Low-Technologies Ltd (GLT) is a sustainability-focused corporate and research platform built to showcase innovative low-cost technologies for clean energy, waste management, and environmental conservation.",
+            "The platform was designed with a modern investor-ready user experience, combining strong visual storytelling, responsive design, and structured content architecture.",
+            "Built using React, TypeScript, and Tailwind CSS, the website features scalable component-based architecture optimized for performance, accessibility, and maintainability.",
+            "The platform highlights GLT innovations including biogas systems, biomass conversion technologies, eco-friendly detergents, and sustainable energy solutions.",
+            "An AI-powered chatbot was integrated using OpenAI and retrieval-based knowledge architecture, enabling users to ask intelligent questions about GLT technologies, research, partnerships, and sustainability impact.",
+            "The project also includes SEO optimization, analytics integration, WhatsApp communication support, responsive layouts, and low-cost cloud deployment infrastructure.",
+          ],
+        },
+        {
+          id: 2,
+          name: "GLT.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://greenlowtech.com/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "glt.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-4.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://www.figma.com/design/vicyDAkdGX3Kdc6WKGT3LO/GLT-Ltd?m=auto&t=cOvY28pAH0uJwa37-1",
+          position: "top-60 right-20",
+        },
+      ],
+    },
   ],
 };
 
@@ -564,6 +617,26 @@ const EDUCATION_LOCATION = {
         {
           id: 1,
           name: "KU-cert-transcripts.pdf",
+          icon: "/images/pdf.png",
+          kind: "file",
+          position: "top-10 left-5",
+          fileType: "pdf",
+          // you can add `href` if you want to open a hosted resume
+          // href: "/files/KU-cert-transcripts.pdf",
+        },
+      ]
+    },
+    {
+      id: 3,
+      name: "Open University (OUK)",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-52 left-8",
+      windowPosition: "top-[60vh] right-7",
+      children: [
+        {
+          id: 1,
+          name: "Ouk-ai.pdf",
           icon: "/images/pdf.png",
           kind: "file",
           position: "top-10 left-5",
